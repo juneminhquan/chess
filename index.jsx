@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Star, Lock, Play, RotateCcw, Trophy, ChevronRight, Volume2, VolumeX, Map as MapIcon, Home } from 'lucide-react';
 
 /**
- * HỆ THỐNG DỮ LIỆU CẤP ĐỘ (PLANETS & PUZZLES) - UPDATED
+ * HỆ THỐNG DỮ LIỆU CẤP ĐỘ (PLANETS & PUZZLES) - UPDATED 1
  * Đã kiểm tra và sửa lỗi FEN cho tất cả các level.
  */
 const LEVELS = [
