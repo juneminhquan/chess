@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Star, Lock, Play, RotateCcw, Trophy, ChevronRight, Volume2, VolumeX, Map as MapIcon, Home } from 'lucide-react';
+import ReactDOM from 'react-dom/client'
 
 /**
  * HỆ THỐNG DỮ LIỆU CẤP ĐỘ (PLANETS & PUZZLES) - UPDATED 1
@@ -606,3 +607,9 @@ export default function App() {
     </div>
   );
 }
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
