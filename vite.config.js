@@ -1,4 +1,7 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
 export default defineConfig({
-  base: '/ten-repository-của-bạn/', // Quan trọng: Phải có tên repo ở đây
   plugins: [react()],
+  base: '/chess/', // Thay 'chess' bằng tên chính xác repo của bạn
 })
