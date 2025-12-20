@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Star, Lock, RotateCcw, Trophy, ChevronRight, Home } from 'lucide-react';
+import ReactDOM from 'react-dom/client'
 
 /**
  * HỆ THỐNG DỮ LIỆU CẤP ĐỘ - PHIÊN BẢN V1.5 (FIX TRIỆT ĐỂ LỖI QUÂN HẬU)
@@ -379,3 +380,9 @@ export default function App() {
     </div>
   );
 }
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
